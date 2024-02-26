@@ -7,7 +7,7 @@ import { SparklesIcon } from "@heroicons/react/24/solid";
 import Image from 'next/image';
 
 
-export default function () {
+const HeroContent = () => {
   return (
     <motion.div
       initial="hidden"
@@ -66,3 +66,5 @@ export default function () {
     </motion.div>
   );
 }
+
+export default HeroContent;
